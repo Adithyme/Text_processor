@@ -28,7 +28,7 @@ example_usage.py:
 ```python
 from text_preprocessor import TextPreprocessor
 
-sample = "This is Anjali’s first ML project!!!"
+sample = "This is Adi’s first ML project!!!"
 
 p = TextPreprocessor(lowercase=True, remove_punct=True, remove_stopwords=True)
 cleaned = p.transform(sample)
